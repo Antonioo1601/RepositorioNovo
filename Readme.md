@@ -7,6 +7,7 @@ Inicio
 
 total <- 0
 escreval("Versão 2.0")
+
 Escreval("Bem-vindo à Lanchonete Do Antônio!")
 Escreval("Menu de Lanches:")
 Escreval("1 – X-Salada: R$8,00")
