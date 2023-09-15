@@ -5,8 +5,15 @@ opcao, total, valor_item: Real
 Inicio
 
 total <- 0
+<<<<<<< HEAD
 Escreval("Versao 2.0")
 Escreval("Bem-vindo a Lanchonete Do Antonio!")
+=======
+
+escreval("Versão 2.0")
+
+Escreval("Bem-vindo à Lanchonete Do Antônio!")
+>>>>>>> 43d20205092e0c474c4391cfed70e8343791f994
 Escreval("Menu de Lanches:")
 Escreval("1 - X-Salada: R$8,00")
 Escreval("2 - X-Bacon: R$10,00")
@@ -33,7 +40,11 @@ Repita
      Se opcao = 5 Entao
         Escreval("Pedido finalizado. Total a pagar: R$", total)
     Senao
+<<<<<<< HEAD
         Escreval("Opcao invalida. Escolha uma opcao valida.")
+=======
+        Escreval("Opção inválida. Escolha uma opção válida.")
+>>>>>>> 43d20205092e0c474c4391cfed70e8343791f994
     FimSe
     fimse
     fimse
@@ -45,5 +56,9 @@ Repita
 
 
 Ate opcao = 5
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43d20205092e0c474c4391cfed70e8343791f994
 FimAlgoritmo
 
