@@ -6,7 +6,7 @@ opcao, total, valor_item: Real
 Inicio
 
 total <- 0
-
+escreval("Versão 2.0")
 Escreval("Bem-vindo à Lanchonete Do Antônio!")
 Escreval("Menu de Lanches:")
 Escreval("1 – X-Salada: R$8,00")
@@ -19,21 +19,21 @@ Repita
     Escreval("Digite a opção desejada (1 a 5): ")
     Leia(opcao)
 
-    Se opcao = 1 Então
+    Se opcao = 1 Entao
         valor_item <- 8.0
-    Senão
-     Se opcao = 2 Então
+    Senao
+     Se opcao = 2 Entao
         valor_item <- 10.0
-    Senão
-     Se opcao = 3 Então
+    Senao
+     Se opcao = 3 Entao
         valor_item <- 9.0
-    Senão
-     Se opcao = 4 Então
+    Senao
+     Se opcao = 4 Entao
         valor_item <- 6.5
-    Senão
-     Se opcao = 5 Então
+    Senao
+     Se opcao = 5 Entao
         Escreval("Pedido finalizado. Total a pagar: R$", total)
-    Senão
+    Senao
         Escreval("Opção inválida. Escolha uma opção válida.")
     FimSe
     fimse
@@ -46,5 +46,5 @@ Repita
 
 
 Ate opcao = 5
-escreval("Versão 2.0")
+
 FimAlgoritmo
