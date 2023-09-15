@@ -6,6 +6,7 @@ opcao, total, valor_item: Real
 Inicio
 
 total <- 0
+
 escreval("Versão 2.0")
 
 Escreval("Bem-vindo à Lanchonete Do Antônio!")
