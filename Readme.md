@@ -1,5 +1,6 @@
 Algoritmo "Menu Lanchonete: Antônio José"
 
+
 Var
 opcao, total, valor_item: Real
 Inicio
@@ -45,4 +46,5 @@ Repita
 
 
 Ate opcao = 5
+escreval("Versão 2.0")
 FimAlgoritmo
